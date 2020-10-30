@@ -10,8 +10,8 @@ Lokasi
 
 
 <div class="row">
-    @if ($message = Session::get('success'))
-    {!! $message !!}
+    @if(\Session::has('success'))
+        <div>{!!Session::get('success')!!}</div>
     @endif
     <div class="col-md-12">
         <div class="row">

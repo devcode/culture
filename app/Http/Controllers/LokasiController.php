@@ -193,8 +193,8 @@ class LokasiController extends Controller
     return redirect(route('lokasi.index', compact('data')))->with(
       ['success' => "<script>
         Swal.fire(
-      'Good job!',
-      'You clicked the button!',
+      'Berhasil!',
+      'Data telah di ubah!',
       'success'
         )</script>"]
     );;

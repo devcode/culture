@@ -25,15 +25,10 @@ Tambah
             </div>
             <div class="form-group">
                 <label for="" class="control-label">kategori</label>
-<<<<<<< HEAD
                <select class="form-control" name="kat">
                    <option value="1">Sejarah</option>
                    <option value="2">Budaya</option>
                </select>
-=======
-                {!! Form::select('id_kategori', ["Budaya,sejarah"], ["1,2"], ['class' => 'form-control', 'id' =>
-                'id_kategori']) !!}
->>>>>>> c5347be0390e123dddf31ce7f9a17484f27acd73
             </div>
             <div class="form-group">
                 <label for="" class="control-label">Thumbnail</label>

@@ -44,9 +44,9 @@
                        Disini kita bisa mengetahui seluruh Cagar Budaya di Nusantara agar kalian dapat menyadari bahwa ada dan masih banyak tempat Cagar Budaya di Nusantara ini. Seperti yang kita ketahui, negara Indonesia ini sangatlah luas dan sangat ragam dengan kebudayaan
                        nya dan salah satunya Cagar Budaya yang tidak banyak diketahui oleh orang banyak.
                    </p>
-                   <p class="text-justify">
+                   {{-- <p class="text-justify">
                        Jadi, ayo kita jelajahi disini
-                   </p>
+                   </p> --}}
                </div>
            </div>
        </div>

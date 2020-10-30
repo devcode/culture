@@ -14,7 +14,7 @@
            <?php foreach ($lokasi as $des): ?>
              <div class="col-md-6">
                <div class="media shadow">
-                   <img src="{{asset('deskripsi/'.$des->gambar)}}" class="align-self-start mr-3" alt="...">
+                   <img src="{{asset('deskripsi/'.$des->gambar)}}" class="img-fluid p-3 align-self-start mr-3">
                    <div class="media-body">
                        <h5 class="mt-0 mb-0">{{$des->name}}</h5>
                        <small class="text-muted mt-0">

@@ -7,7 +7,7 @@
     <section class="map">
         <div class="container">
             <div class="col-md-12 text-center">
-                <h4>Penyebaran Cagar Budaya di Indonesia</h4>
+                <h4 class="p-3">Penyebaran Cagar Budaya di Indonesia</h4>
 
                   <div class="card">
                       <div class="row position-absolute fixed-top ml-3 pl-4 mt-4">

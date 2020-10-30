@@ -108,11 +108,11 @@ function Kec($id, $kab)
 
 function Bisa($id)
 {
-  $data = Deskripsi::where('id_lokasi',$id)->get();
-  return $data;
+    $data = Deskripsi::where('id_lokasi', $id)->get();
+    return $data;
 }
 function kategori($id)
 {
-  $data = TypePlace::where('id',$id)->get('name');
-  return $data;
+    $data = TypePlace::findOrFail($id);
+    return $data->name;
 }

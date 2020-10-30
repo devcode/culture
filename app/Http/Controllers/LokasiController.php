@@ -128,7 +128,7 @@ class LokasiController extends Controller
   public function edit($id)
   {
     $model = Lokasi::findOrFail($id);
-    $kategori = TypePlace::get();
+    $kategori = TypePlace::where('id', '!=', $model->id_kategori);
     return view('admin.lokasi.update')
       ->with(compact('model'))
       ->with(compact('kategori'));
@@ -165,9 +165,13 @@ class LokasiController extends Controller
     $content = $dom->savehtml();
 
     $gambar = $request->file('gambar');
-    $gambarBaru = time() . '_' . $gambar->getClientOriginalName();
-    $tujuan = 'deskripsi';
-    $gambar->move($tujuan, $gambarBaru);
+    if ($gambar) {
+      $gambarBaru = time() . '_' . $gambar->getClientOriginalName();
+      $tujuan = 'deskripsi';
+      $gambar->move($tujuan, $gambarBaru);
+    } else {
+      $gambarBaru = $request->bahela;
+    }
 
     $data = request()->validate([
       'name' => 'required',
@@ -183,7 +187,7 @@ class LokasiController extends Controller
     $data['gambar'] = $gambarBaru;
     $data['deskripsi'] = $content;
 
-
+    $model = Lokasi::findOrFail($id);
     $model->update($data);
 
     return redirect(route('lokasi.index', compact('data')))->with(

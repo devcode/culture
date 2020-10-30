@@ -35,12 +35,21 @@
             <input type="text" value="{{ $model->alamat }}" class="form-control" name="alamat">
         </div>
         <div class="form-group">
-            <label for="title">Kategori</label>
-            <input type="text" value="{{ $model->kat }}" class="form-control" name="kat">
+            <label for="kat">Kategori</label>
+            <select name="kat" class="form-control" id="kat">
+                @if ($model->kat == 1)
+                    <option value="{{  $model->kat }}">Kebudayaan</option>
+                    <option value="2">Sejarah</option>
+                    @else
+                    <option value="1">Sejarah</option>
+                    <option value="{{  $model->kat }}">Kebudayaan</option>
+                @endif
+            </select>
         </div>
          <div class="form-group">
             <label for="title">Thumbnail</label>
-            <input type="file" name="gambar" value ="{{$model->gambar}}">
+            <input type="file" class="for-control" name="gambar">
+            <input type="hidden" name="bahela" value="{{$model->gambar}}">
         </div>
         </div>
         <div class="col-md-6">
@@ -106,7 +115,11 @@
         </div>
 
         <div id="mapid"></div>
-        <button type="submit" class="btn btn-primary col-12">Ubah</button>
+        <center class="row justify-content-center">
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary mx-auto col-12">Ubah</button>
+        </div>
+        </center>
     </form>
 
 @endsection

@@ -16,7 +16,7 @@
                 <img src="{{ asset('deskripsi/'.$judul->gambar) }}" width="540" height="300" class="img-fluid" srcset=""
                     style="object-fit: cover;">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-capitalize">
                 <p class="text-justify">
                     {!! $judul->deskripsi !!}
                 </p>
@@ -44,7 +44,7 @@
                     class="img-fluid" style="object-fit: cover;">
 
             </div>
-            <p class="text-justify">
+            <p class="text-justify text-capitalize">
                 &nbsp;&nbsp;{!! $judul->deskripsi !!}
             </p>
         </div>

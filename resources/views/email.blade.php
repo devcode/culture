@@ -362,8 +362,8 @@
                                 <table border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                         <td>
-                                            <p>Nama : {{ '$nama' }}</p>
-                                            <p>Email : {{ '$email' }}</p>
+                                            <p>Nama : {{ $nama }}</p>
+                                            <p>Email : {{ $email }}</p>
 
                                             <table border="0" cellpadding="0" cellspacing="0">
                                                 <tbody>
@@ -379,7 +379,7 @@
                                                                                 </center>
                                                                                 <hr>
                                                                                 <center>
-                                                                                    <p>{{ '$pesan' }}</p>
+                                                                                    <p>{{ $pesan }}</p>
                                                                                 </center>
                                                                                 <hr>
                                                                                 <center>

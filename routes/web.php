@@ -73,8 +73,8 @@ Route::get('/table/icon', 'IconController@dataTable')->name('table.icon');
 // Route::get('/table/ulas', 'UlasController@dataTable')->name('table.ulas');
 // andicon
 // lokasi culture
-Route::resource('/culture', 'LokasiBudayaController');
+// Route::resource('/culture', 'LokasiBudayaController');
 Route::resource('/mail', 'EmailController');
-Route::get('/table/culture', 'LokasiBudayaController@dataTable')->name('table.culture');
+// Route::get('/table/culture', 'LokasiBudayaController@dataTable')->name('table.culture');
 // end lokasi culture
 // andadmin

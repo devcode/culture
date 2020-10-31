@@ -11,16 +11,6 @@ class Lokasi extends Model
 
     public function type()
     {
-        return $this->hasOne(lokasi::class, 'id', 'type_id');
-    }
-
-    public function deskripsi()
-    {
-        return $this->hasOne(Deskripsi::class, 'id_lokasi', 'id');
-    }
-
-    public function detail($id)
-    {
-        return $this->hasOne(Deskripsi::class, 'id_lokasi', $id);
+        return $this->hasOne(Lokasi::class, 'id', 'type_id');
     }
 }

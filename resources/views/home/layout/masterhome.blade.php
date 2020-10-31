@@ -177,17 +177,7 @@
 
     <!-- End Footer -->
 
-    <script>
-    $('.counter').counterUp({
-        delay: 10,
-        time: 2000,
-        offset: 70,
-        beginAt: 100,
-        formatter: function(n) {
-            return n.replace(/,/g, '.');
-        }
-    });
-    </script>
+    
     <!-- CDN Jquery -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -207,6 +197,17 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Main JS File -->
     <script src="/js/index.js"></script>
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000,
+            offset: 70,
+            beginAt: 100,
+            formatter: function(n) {
+                return n.replace(/,/g, '.');
+            }
+        });
+        </script>
 </body>
 
 </html>

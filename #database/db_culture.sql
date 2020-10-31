@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 31, 2020 at 02:18 PM
+-- Generation Time: Oct 31, 2020 at 02:35 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -342,11 +342,23 @@ CREATE TABLE `users` (
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email_verified_at` timestamp NULL DEFAULT NULL,
-  `password` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `role_id` int(10) UNSIGNED NOT NULL,
+  `alamat` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `gambar` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `role_id`, `alamat`, `gambar`) VALUES
+(3, 'Both', 'both@gmail.com', NULL, '$2y$10$SnvNOXS/GTHvEcFgvOTmiOmSKFUu/Koq/2NofYz9vBODhUNiQgMt2', NULL, '2020-10-18 17:22:39', '2020-10-18 17:22:39', 1, 'Sindangkasih', 'default.png'),
+(4, 'Irgi Gimnastiar', 'irgi@gmail.com', NULL, '$2y$10$a7DWSyi6RJMUAiqb0Is5zuaTtTyLr.Wh4krISaINkfDEyA8HhWeF.', NULL, '2020-10-18 17:23:37', '2020-10-19 21:22:47', 2, 'Ciherang', 'default.png'),
+(5, 'Syarif H', 'syarif@gmail.com', NULL, '$2y$10$0d2n1ILQTibrnaqnrXImS.EhZjn1qL/zGGIM/AtosPC6lWg.p/vsS', NULL, '2020-10-18 17:24:10', '2020-10-18 17:24:10', 2, 'Bantar', 'coba.jpg');
 
 --
 -- Indexes for dumped tables
@@ -469,7 +481,7 @@ ALTER TABLE `ulasans`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

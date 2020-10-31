@@ -13,7 +13,7 @@ class CreateUlasansTable extends Migration
      */
     public function up()
     {
-      Schema::create('ulasans', function (Blueprint $table) {
+        Schema::create('ulasans', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->bigInteger('id_lokasi')->unsigned();
             $table->string('name');
@@ -21,7 +21,7 @@ class CreateUlasansTable extends Migration
             $table->mediumText('ulasan');
             $table->timestamps();
 
-            $table->foreign('id_lokasi')->references('id_lokasi')->on('deskripsis')->onDelete('cascade');
+            // $table->foreign('id_lokasi')->references('id_lokasi')->on('deskripsis')->onDelete('cascade');
         });
     }
 

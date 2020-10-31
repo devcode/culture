@@ -6,27 +6,27 @@ use Illuminate\Support\Facades\Schema;
 
 class CreatIconsTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-      Schema::create('icons', function (Blueprint $table) {
-          $table->bigIncrements('id');
-          $table->string('icon');
-          $table->timestamps();
-      });
-    }
+  /**
+   * Run the migrations.
+   *
+   * @return void
+   */
+  public function up()
+  {
+    Schema::create('icons', function (Blueprint $table) {
+      $table->bigIncrements('id');
+      $table->string('icon');
+      $table->timestamps();
+    });
+  }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-      Schema::dropIfExists('icons');
-    }
+  /**
+   * Reverse the migrations.
+   *
+   * @return void
+   */
+  public function down()
+  {
+    Schema::dropIfExists('icons');
+  }
 }

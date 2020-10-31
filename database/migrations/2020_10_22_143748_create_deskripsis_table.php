@@ -17,10 +17,10 @@ class CreateDeskripsisTable extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('id_lokasi')->unsigned();
             $table->string('gambar');
-            $table->text('deskripsi',99999);
+            $table->text('deskripsi', 99999);
             $table->timestamps();
 
-            $table->foreign('id_lokasi')->references('id')->on('lokasis')->onDelete('cascade');
+            // $table->foreign('id_lokasi')->references('id')->on('lokasis')->onDelete('cascade');
         });
     }
 

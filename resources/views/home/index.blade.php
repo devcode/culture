@@ -29,9 +29,9 @@
        <div class="container">
            <div class="row">
                <div class="col-md-8">
-                   <img src="{{asset('assets/img/user/ma.jpg')}}" class="img-fluid" alt="" srcset="" />
-                   <img src="{{asset('assets/img/user/da.jpg')}}" class="img-fluid" alt="" srcset="" />
-                   <img src="{{asset('assets/img/user/au.jpg')}}" class="img-fluid" alt="" srcset="" />
+                   <img src="/assets/img/user/ma.jpg" class="img-fluid" alt="" srcset="" />
+                   <img src="/assets/img/user/da.jpg" class="img-fluid" alt="" srcset="" />
+                   <img src="/assets/img/user/au.jpg" class="img-fluid" alt="" srcset="" />
                    <div class="description-image text-center mt-3">
                        <small>
                            Tari Mandau dari Kalimantan Tengah merupakan salah satu kebudayaan Nusantara (<i class="fa fa-photo"></i> wisataoke.com )

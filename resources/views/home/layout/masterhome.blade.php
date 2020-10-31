@@ -21,7 +21,7 @@
     {{-- Sweet --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <!-- Main CSS File -->
-    <link href="{{ asset('css/index.css') }}" type="text/css" rel="stylesheet">
+    <link href="/css/index.css" type="text/css" rel="stylesheet">
 
     <title>Culture Indonesia</title>
 </head>
@@ -206,7 +206,7 @@
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Main JS File -->
-    <script src="{{asset('js/index.js')}}"></script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>

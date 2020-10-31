@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" href="{{asset('assets/img/user/tab-icon.png')}}">
+    <link rel="icon" href="{{secure_url('assets/img/user/tab-icon.png')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link href="{{asset('css/index.css')}}" type="text/css" rel="stylesheet">
+    <link href="/css/index.css" type="text/css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -48,7 +48,7 @@
     <nav class="navbar navbar-light main-navbar-sub navbar-expand-lg bg-transparent">
         <div class="container">
             <span class="navbar-brand mb-0 h1">
-                <img src="{{asset('assets/img/user/culture2.png')}}" class="img-fluid" width="60" height="60" alt="" srcset="">
+                <img src="{{secure_url('assets/img/user/culture2.png')}}" class="img-fluid" width="60" height="60" alt="" srcset="">
             </span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -98,7 +98,7 @@
                     <div class="row">
                         <div class="col-md-4 mt-0">
                             <h4></h4>
-                            <img src="{{asset('assets/img/user/culture2.png')}}" class="img-fluid" width="150" height="150" alt="" srcset="">
+                            <img src="{{secure_url('assets/img/user/culture2.png')}}" class="img-fluid" width="150" height="150" alt="" srcset="">
                             <br>
                             <small class="text-muted">
                                 Jl. Jenderal Sudirman No. 269 RT 13/RW 09, Desa Sindangrasa, Sindangrasa, Kec. Ciamis, Kabupaten Ciamis, Jawa Barat 46215

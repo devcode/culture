@@ -27,6 +27,6 @@ class ProfileAdminController extends Controller
         ]);
 
         $request->user()->update($request->all());
-        return redirect(route('admin.profile'));
+        return redirect(route('admin.index'));
     }
 }

@@ -6,7 +6,9 @@
 
 @section('content')
 <h2>@yield('title')</h2>
-
+@if(\Session::has('alert-success'))
+<div>{!!Session::get('alert-success')!!}</div>
+@endif
 <form method="POST" action="{{ route('password.update') }}">
     @csrf
     <div class="form-group row">

@@ -41,6 +41,14 @@ class ResetPasswordController extends Controller
         ]);
 
         User::find(auth()->user()->id)->update(['password' => Hash::make($request->password1)]);
-        return back();
+        return back()->with('alert-success', "
+        <script>
+            Swal.fire(
+                'Berhasl!',
+                'Password telah di ganti',
+                'success'
+            )
+        </script>
+        ");
     }
 }

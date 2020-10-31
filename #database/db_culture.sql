@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 31, 2020 at 12:27 AM
+-- Generation Time: Oct 31, 2020 at 08:05 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -158,7 +158,7 @@ CREATE TABLE `lokasis` (
 --
 
 INSERT INTO `lokasis` (`id`, `id_kategori`, `kat`, `name`, `alamat`, `provinsi`, `kabupaten`, `kecamatan`, `latitude`, `longitude`, `gambar`, `deskripsi`, `created_at`, `updated_at`) VALUES
-(39, 4, 1, 'Tugu Mac Arthurs', 'Sentani Kota, Sentani, Jayapura, Papua', 94, 9403, '9403230', '-25.57922', '14.0535222', '1603622708_download.jpg', '<p>Tugu MacArthur adalah tempat bersejarah yang terletak di puncak Ifar Gunung. Tugu ini berdiri sejak Perang Dunia II dan didirikan oleh pasukan sekutu Amerika yang dipimpin oleh jenderal bintang lima asal Angkatan Darat Filipina. Jendral yang dikenal dengan strategi \"Loncat Katak\"-nya ini berperan penting dalam Perang Pasifik pada Perang Dunia II.</p>\n', '2020-10-25 03:45:08', '2020-10-30 16:25:52'),
+(39, 4, 1, 'Tugu Mac Arthur', 'Sentani Kota, Sentani, Jayapura, Papua', 94, 9403, '9403230', '-25.57922', '14.0535222', '1603622708_download.jpg', '<p>Tugu MacArthur adalah tempat bersejarah yang terletak di puncak Ifar Gunung. Tugu ini berdiri sejak Perang Dunia II dan didirikan oleh pasukan sekutu Amerika yang dipimpin oleh jenderal bintang lima asal Angkatan Darat Filipina. Jendral yang dikenal dengan strategi \"Loncat Katak\"-nya ini berperan penting dalam Perang Pasifik pada Perang Dunia II.</p>\n', '2020-10-25 03:45:08', '2020-10-30 16:33:24'),
 (40, 3, 1, 'Situs Megalitik Tutari', 'Doyo Lama, Waibu, Jayapura, Papua 99352', 94, 9403, '9403221', '-2.5679055', '140.4102561', '1603625549_Situs Megalitik Tutari.jpg', '<p style=\"text-align: justify;\">Situs megalitik Tutari menjadi kawasan wisata yang menyimpan sejarah kebudayaan masyarakat di pinggir Sungai Sentani pada masa prasejarah, tepatnya zaman neolitik akhir. Lokasi situs ini berada di areal perbukitan, di Kampung Doyo Lama, Distrik Waibu, Kabupaten Jayapura, Papua.&nbsp;<p style=\"text-align: justify;\">&acirc;&#128;&#156;Pada zaman itu manusia sudah mulai hidup bercocok tanam, berkelompok, menetap, dan tinggal bersama dalam kampung. Sejarah kebudayaannya terlihat dari peninggalan-peninggalan yang ada di Situs Megalitik Tutari,&acirc;&#128;&#157; ujar Hari Suroto, peneliti dari Balai Arkeologi Papua, kepada Tempo, Ahad, 8 Desember 2019.</p><p style=\"text-align: justify;\">Pohon kayu putih, batu-batu hitam, dan rumput ilalang memenuhi lokasi ini. Ketiganya menghiasi kanan dan kiri jalan, dari pintu masuk hingga lokasi situs tertinggi. Jalan yang telah dibangun juga memudahkan pengunjung untuk menelusuri setiap bagian situs.</p><p style=\"text-align: justify;\">Di beberapa titik tersedia pondok tempat istirahat. Beberapa pondok berada di ketinggian dengan pemandangan menghadap ke hamparan Danau Sentani. Diberi nama Tutari karena berada di Bukit Tutari selain itu konon suku yang pernah mendiami wilayah sekitar situs ini adalah suku Tutari.</p></p>\r\n', '2020-10-25 04:32:33', '2020-10-25 04:32:33'),
 (42, 12, 1, 'Asei Besar', 'Asei Besar, Sentani Tim., Jayapura, Papua', 94, 9403, '9403220', '-2.600007', '140.5534444', '1603625716_Asei Besar.jpg', '<p style=\"text-align: justify;\">Gereja Asei merupakan gereja tua di Sentani.Tepatnya di Desa Asei Besar, Kec. Sentani Timur, Kab. Jayapura, Papua.Untuk menuju lokasi gereja tua ini harus menggunakan perahu. Mengingat posisinya berada di tengah Danau Sentani.Agama Kristen masuk ke Papua berkat dua misionaris Jerman, yang bernama&nbsp; W.Ottow Carl dan Johann G.Geissler di Manokwari pada1855. Mereka mewartakan injil di pesisir utara Papua sampai teluk Youtefa. Terus ke pedalaman sampai ke belakang gunung Cycloop. Misi penyebaran injil kemudian dilanjutkan oleh JL van Hasselt dari Utrecht Missionary Society. Pada 1 Juli 1928 Agama Kristen mulai masuk ke Pulau Asei. Peringatan masuknya agama Kristen ke Pulau Asei ini kemudian di abadikan dalam bentuk tugu peringatan. Tanggal itui juga dijadikan sebagai hari besar bagi jemaat Gereja Asei.<p style=\"text-align: justify;\">Menurut penuturan Yohanes Pouw (45 th) Gereja Asei kali pertama dibangun sekitar 1930-an. Letaknya di kaki bukit, dibangun dengan bentuk yang sangat sederhana. Dindingnya terbuat dari bahan gaba-gaba (pelepah sagu), dengan atap rumbia. Pada Perang Dunia Kedua, sekitar 1944, gereja ini hancur akibat pertempuran antara Jepang dan sekutu (Amerika Serikat). Pulau asei termasuk dalam wilayah pergerakan tentara Jepang, atau lintasan merah. Maka dibombardir lah Pulau Asei Sekutu. Akibatnya banyak&nbsp;</p><p style=\"text-align: justify;\">Setelah berakhirnya Perang Dunia Kedua, masyarakat di Pulau Asei membangun kembali gereja baru di tempat yang paling tinggi. Tepanya di bukit Pulau Asei. Pembangunan Gereja dipercayakan kepada seorang tukan kayu setempat, bernama Wolfram Wodong. Desainnya didapatkan dari Jerman, dari salah satu Sekolah Teknik di sana. Berbekalkan desain tersebut, Wolfram Wodong dan masyarakat Asei mewujudkannya hingga seperti yang sekarang. Pengaruh arsitektur Jerman ini terlihat pada bentuk jendela yang besar dengan motif kotak. Gereja ini mulai diresmikan pada 01 Januari 1950. Angka tahun ini terlihat di salah satu trap anak tangga teras depan sebelah utara.</p></p>', '2020-10-25 04:35:16', '2020-10-25 04:35:16'),
 (43, 12, 1, 'Masjid Tua Patimburak', 'Kampung Kinaam, Dulan Pok Pok, Kec. Fakfak, Kabupaten Fakfak, Papua Barat. 98611', 91, 9101, '9101060', '-2.922696', '132.2636505', '1603626111_Masjid Tua Patimburak.jpg', '<p>Masjid Tua Al Yasin Patimburak terletak di Kampung Patimburak, Distrik Kokas, Kabupaten Fakfak, Papua Barat. Masjid berusia 174 tahun itu merupakan masjid tertua di Fakfak dan aset sejarah Islam di tanah Papua.<p>Masjid Al Yasin dibangun oleh Raja Wertuar pertama yang bernama Pamempek Kuda di Kampung Patimburak pada 1870 Masehi. Karena keberadaan Masjid Tua Patimburak itu maka Fakfak pun dijuluki sebagai Serambi Makah-nya Papua.</p><p>Selain untuk kemaslahatan umat, Masjid Tua Al Yasin juga salah satu pusat Islam di Papua.</p><p>Untuk mencapai masjid tersebut, sebelumnya harus menempuh perjalanan darat dari Fakfak ke Kokas. Tersedia angkutan luar kota dari terminal Kota Fakfak. Selama 2 jam, Anda akan menyusur jalan berkelok dan segarnya udara pegunungan.</p><p>Tiba di kota kokas, perjalanan menuju Kampung Patimburak harus dilanjutkan menggunakan longboat sewaan. Jika menggunakan longboat, pengunjung yang ingin menuju Masjid Tua Patimburak bisa menikmati keindahan pulau-pulau karang yang masih perawan di sepanjang perjalanan di pesisir pantai dan laut dari Kokas menuju Kampung Patimburak.</p></p>', '2020-10-25 04:41:51', '2020-10-25 04:41:51'),
@@ -175,14 +175,14 @@ INSERT INTO `lokasis` (`id`, `id_kategori`, `kat`, `name`, `alamat`, `provinsi`,
 (56, 2, 2, 'Masjid Kuno Gunung Pujut', 'Sengkol, Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573', 52, 5202, '5202020', '-8.8098232', '116.2972093', '1603670555_Masjid Kuno Gunung Pujut.jpg', '<p>masjid ini didirikan sudah lama sekali yang dibuat oleh pangeran sange patisekitar 1008m dibawah pimpimnan wali-wali.</p>', '2020-10-25 17:02:36', '2020-10-25 17:02:36'),
 (57, 3, 1, 'Pura Meru Cakranegara', 'Jl. Selaparang, Cakranegara Tim., Kec. Cakranegara, Kota Mataram, Nusa Tenggara Bar. 83239', 52, 5271, '5271030', '-8.5876207', '116.1292083', '1603671234_Pura Meru Cakranegara.jpg', '<p>pura terkenal di pulau lombok sebagai peninggalan budaya nusantara cakranegara adalah pura terbesar dari pulau lombok</p>', '2020-10-25 17:13:55', '2020-10-25 17:13:55'),
 (60, 2, 2, 'Masjid Kuno Syekh Abdul Manan Salabose', 'Salabose, Banggae, Kabupaten Majene, Sulawesi Barat 91412', 13, 1312, '1312110', '-3.5393627', '118.9614422', '1603671967_Masjid Kuno Syekh Abdul Manan Salabose.jpg', '“Masjid ini adalah masjid Kerajaan Banggae. Saya lihat di lontar, pada tahun 1608 itu peresmian agama Islam sebagai agama kerajaan karena sebelumnya adalah agama Hindu,” kata Gaus.  Arsitektur masjid ini cukup sederhana yang dibangun dengan material bangunan dari batu yang dipahat. Batu itu kemudian disusun rapi dan direkatkan dengan menggunakan putih telur. Sebagian besar bentuk asli masjid ini masih dipertahankan.', '2020-10-25 17:26:07', '2020-10-25 17:26:07'),
-(61, 4, 1, 'La Mohang Daeng Mangkona', 'Mesjid, Kec. Samarinda Seberang, Kota Samarinda, Kalimantan Timur 75251', 64, 6472, '6472030', '-0.518707', '117.1482703', '1603673683_La Mohang Daeng Mangkona.jpg', '<p>makam seborang bugis bejoyang mendirikan pemukiman</p>', '2020-10-25 17:54:44', '2020-10-25 17:54:44'),
+(61, 4, 1, 'La Mohang Daeng Mangkona', 'Mesjid, Kec. Samarinda Seberang, Kota Samarinda, Kalimantan Timur 75251', 64, 6472, '6472030', '-0.518707', '117.1482703', 'La.jpg', '<p>makam seborang bugis bejoyang mendirikan pemukiman</p>', '2020-10-25 17:54:44', '2020-10-25 17:54:44'),
 (66, 3, 2, 'Kedaton Kutai Kartanegara', 'Jl. Monumen Timur, Panji, Kec. Tenggarong, Kabupaten Kutai Kartanegara, Kalimantan Timur 75513', 64, 6403, '6403110', '-0.4135578', '116.9866725', '1603674286_Kedaton Kutai Kartanegara.jpg', 'Kedaton Kutai Kartanegara adalah istana milik Sultan Kutai Kartanegara yang terletak di pusat kota Tenggarong, Kalimantan Timur, Indonesia. Istana ini selesai dibangun oleh Pemerintah Kabupaten Kutai Kartanegara pada tahun 2002 setelah dihidupkannya kembali Kesultanan Kutai Kartanegara ing Martadipura. Meski telah resmi menjadi milik Sultan Kutai Kartanegara, istana baru ini lebih difungsikan sebagai kantor lembaga kesultanan serta sebagai tempat pelaksanaan acara seremonial oleh Sultan atau Kesultanan Kutai Kartanegara ing Martadipura.', '2020-10-25 18:04:46', '2020-10-25 18:04:46'),
 (67, 2, 1, 'Masjid Jami Aji Amir Hasanuddin', 'Panji, Kec. Tenggarong, Kabupaten Kutai Kartanegara, Kalimantan Timur 75513', 64, 6403, '6403110', '-0.4129912', '116.9870426', '1603674640_Masjid Jami Aji Amir Hasanuddin.jpg', 'Di masjid ini terdapat 16 tiang kayu ulin yang Besar yang mana kayu ini awalnya akan digunakan untuk adat Ritual Kutai yaitu Menduduskan yaitu pemandian putra Mahkota Yaitu Adji Punggeuk tetapi malah calon raja tersebut meninggal dunia.  Akhirnya 16 tiang itu digunakan untuk proses pembuatan Masjid ini. Ketika subuh peletakan batu pertama, rakyat langsung bergotong-royong dan membuat Masjid ini tanpa upah, hanya bermodalkan Iman dan keikhlasan kepada Allah SWT. Dan perlu di ingat sebelum Masjid ini di Rehab tidak ada ada satu paku pun yang digunakan untuk Membangun Masjid ini melainkan dengan Kayu itu sendiri.', '2020-10-25 18:10:40', '2020-10-25 18:10:40'),
 (69, 4, 2, 'Astana Gede', 'Kawali, Kabupaten Ciamis, Jawa Barat 46253', 32, 3207, '3207280', '-7.189918', '108.362864', 'astana.jpg', 'Astana Gede Kawali adalah salah satu lokasi wisata sejarah yang ada di Kabupaten Ciamis, Jawa Barat. Konon tempat ini dahulunya adalah Ibu Kota Kerajaan Galuh. Sehingga banyak peninggalan benda-benda bersejarah di dalamnya.', NULL, NULL),
 (70, 5, 1, 'Wisata Alam Ciung Wanara', 'Jalan Raya Banjar Ciamis, Cijeungjing, Karangkamulyan, Kec. Ciamis, Kabupaten Ciamis, Jawa Barat 46271', 32, 3207, '3207150', '-7.347314', '108.489207', 'ciung.jpg', 'Wisata Ciung Wanara di Ciamis Jawa Barat adalah salah satu tempat wisata yang berada di desa ciamis, kabupaten ciamis, provinsi jawa barat, negara indonesia. Wisata Ciung Wanara di Ciamis Jawa Barat adalah tempat wisata yang ramai dengan wisatawan pada hari biasa maupun hari liburan. Tempat ini sangat indah dan bisa memberikan sensasi yang berbeda dengan aktivitas kita sehari hari.  Wisata Ciung Wanara di Ciamis Jawa Barat memiliki pesona keindahan yang sangat menarik untuk dikunjungi. Sangat di sayangkan jika anda berada di kota ciamis tidak mengunjungi wisata sejarah yang mempunyai keindahan yang tiada duanya tersebut.', NULL, NULL),
 (71, 15, 2, 'Situs Gunung Susuru', 'Kertabumi, Cijeungjing, Ciamis Regency, West Java 46271', 32, 3207, '3207150', '-7.342081', '108.463665', 'susuru.jpg', 'Gunung Susuru sebagai patilasan Kerajaan Galuh Kertabumi dijadikan dasar pertimbangan karena Singaperbangsa I yang merupakan cicit Prabu Dimuntur, penguasa Kertabumi,adalah tokoh yang  memindahkan pusat pemerintahan dari Galuh Kertabumi ke Banjar Pataruman.  Sehingga Singaperbangsa I dianggap sebagai peletak dasar berdirinya kota Banjar.  Maka untuk memenuhi kelengkapan data yang tengah dikumpulkan, H. Djaja Sukardja menugaskan Penilik Kebudayaan Cijeungjing yang bernama Deni SIP untuk terjun langsung ke lokasi dibantu oleh Bah Adang sebagai sesepuh setempat yang mengetahui keadaan Gunung Susuru sejak masih kecil.', NULL, NULL),
 (73, 10, 1, 'Musium Galuh Pakuan', 'Jl. K.H. Ahmad Dahlan, Ciamis, Kec. Ciamis, Kabupaten Ciamis, Jawa Barat 46211', 32, 3207, '3207210', '-7.3327673', '108.3472625', 'pakuan.jpg', 'MENURUT sejarah, bangunan Museum Galuh Pakuan dulunya merupakan rumah Bupati Galuh yang disebut Keraton Selagangga. Pada tahun 2010 rumah itu diresmikan sebagai museum untuk menyimpan benda-benda peninggalan Kerajaan Galuh', NULL, NULL),
-(75, 3, 1, 'Masjid Agung Ciamis', 'Jl. Jend. Sudirman, Ciamis, Kec. Ciamis, Kabupaten Ciamis, Jawa Barat 46211', 32, 3207, '3207210', '-7.3266584', '107.7906968', 'agung.jpg', 'Masjid Agung Ciamis, Jawa Barat terletak di jantung kota Kabupaten Ciamis. Posisinya sangat strategis di antara alun-alun kota (Taman Raflesia) Ciamis, Gedung DPRD, dan Kantor Bupati Ciamis. Masjid termegah, terbesar, dan bersejarah di Ciamis ini memegang peranan penting dalam membawa nilai-nilai dakwah dan syiar Islam bagi masyarakat setempat selama ratusan tahun.', NULL, NULL),
+(75, 3, 1, 'Masjid Agung Ciamis', 'Jl. Jend. Sudirman, Ciamis, Kec. Ciamis, Kabupaten Ciamis, Jawa Barat 46211', 32, 3207, '3207210', '-7.3266531', '108.3488108', 'agung.jpg', 'Masjid Agung Ciamis, Jawa Barat terletak di jantung kota Kabupaten Ciamis. Posisinya sangat strategis di antara alun-alun kota (Taman Raflesia) Ciamis, Gedung DPRD, dan Kantor Bupati Ciamis. Masjid termegah, terbesar, dan bersejarah di Ciamis ini memegang peranan penting dalam membawa nilai-nilai dakwah dan syiar Islam bagi masyarakat setempat selama ratusan tahun.', NULL, NULL),
 (76, 10, 2, 'Musium Galuh Imbanagara', 'Imbanagara, Kec. Ciamis, Kabupaten Ciamis, Jawa Barat 46219', 32, 3207, '3207210', '-7.3173999', '107.745521', 'banagara.jpg', 'Museum Galuh Imbanagara terletak di Jl. Mayor Ali Basyah No. 311 Imbanagara Raya Ciamis. Museum ini didirikan untuk mengamankan benda-benda pusaka dan dokumen sejarah Galuh Imbanagara Ciamis dan telah diresmikan oleh Bupati Ciamis pada tanggal 12 Mei 2004.', NULL, NULL),
 (78, 4, 1, 'Monumen Geger Hanjuang', 'Geger, Hanjuang, Linggamulya, Leuwisari, Tasikmalaya, Jawa Barat 46464', 32, 3206, '3206210', '-7.3003786', '107.5236105', 'hanjuang.jpg', 'Situs Geger Hanjuang  terletak dibukit Geger Hanjuang Desa Linggawangi Kecamatan Leuwisari , dari lokasi tersebut ditemukan berbagai peninggalan sejarah termasuk Prasasti (yang kini disebut prasasti geger hanjuang). Tidak jauh dari lokasi tersebut  terdapat tempat yang diberi nama Saung Gede yang dalam sejarah disebut Saung Galah - artinya Keraton( pusat pemerintahan kerajaan Galunggung), dan Kabuyutan Sanghyang Linggawangi sebuah kebuyutan yang dianggap sakral pada jamannya,', NULL, NULL),
 (79, 3, 2, 'Situs Lingga Yoni Indihiang', 'Kec. Indihiang, Tasikmalaya, Jawa Barat 46151', 32, 3278, '3278070', '-7.2935462', '107.5235853', 'lingga.jpg', 'Lingga Yoni Tasikmalaya adalah peninggalan jaman purbakala, atau setidaknya pada zaman kerajaan galuh. Bentuknya berupa lesung dan alu dari batu. ... Atau lebih tepatnya 1 KM dari arah selatan terminal bis Kota Tasikmalaya, di area seluas 169 m2 di puncak gunung Gadung (gede) Kel. Sukamaju Kidul Indihiang Kota Tasikmalaya.', NULL, NULL),
@@ -223,15 +223,15 @@ INSERT INTO `lokasis` (`id`, `id_kategori`, `kat`, `name`, `alamat`, `provinsi`,
 (118, 4, 1, 'Istana Siak Sri Inderapura', 'sri indrapura, Kp. Dalam, Siak, Kabupaten Siak, Riau 28773', 14, 1405, '1405020', '0.7948123', '102.0467978', 'Istana Siak Sri Inderapura.jpg', '<p>Istana Siak Sri Inderapura atau Istana Asserayah Hasyimiah</p>\n', NULL, '2020-10-30 10:58:57'),
 (119, 4, 1, 'Istana Raja Sumbawa', 'Seketeng, Kec. Sumbawa, Kabupaten Sumbawa, Nusa Tenggara Bar. 84313', 52, 5204, '5204080', '-8.504254', '117.4271036', 'Istana Raja Sumbawa.jpg', '<p>stana Raja Sumbawa atau juga dikenal dengan nama Istana Dalam Loka terletak di kota Sumbawa Besar, Nusa Tenggara Barat,</p>\n', NULL, '2020-10-30 10:57:56'),
 (120, 4, 2, 'Istana Maimun', 'Jl. Brigjend Katamso No.66, A U R, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20151', 12, 1275, '1275070', '3.5752504', '98.6816577', 'Istana Maimun.jpg', '<p>Istana Maimun adalah istana Kesultanan Deli yang merupakan salah satu ikon Kota Medan, Sumatra Utara, terletak di Jalan Brigadir Jenderal Katamso, Aur, Medan Maimun, Medan.</p>\n', NULL, '2020-10-30 10:56:45'),
-(121, 2, 1, 'Benteng Marlborough', 'Jl. Benteng, Kebun Keling, Kec. Tlk. Segara, Kota Bengkulu, Bengkulu 38116', 17, 1771, '1771030', '-3.7869748', '102.2503252', 'Benteng Marlborough.jpg', '<p>Benteng Marlborough (Inggris: Fort Marlborough) adalah benteng peninggalan Inggris di kota Bengkulu.</p>\n', NULL, '2020-10-30 12:34:09'),
-(122, 2, 1, 'Benteng Oranje', 'Jl. Hasan Boesoeri, Gamalama, Ternate Tengah, Kota Ternate, Maluku Utara', 82, 8171, '8171020', '0.7928746', '127.3849056', 'Benteng Oranje.jpg', '<p>Benteng Oranje didirikan pada tanggal 26 Mei 1607 oleh Cornelis Matclief de Jonge dan diberi nama Benteng Oranje oleh Francois Wiltlentt pada tahun 1609 pada masa Pemerintahan Sultan Mudaffar</p>\n', NULL, '2020-10-30 12:35:22'),
-(123, 2, 1, 'Fort Rotterdam', 'No.Road, Jl. Ujung Pandang, Bulo Gading, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90171', 73, 7371, '7371050', '-5.1338631', '119.4031027', 'Fort Rotterdam.jpg', '<p>Fort Rotterdam atau Benteng Ujung Pandang (Jum Pandang) adalah sebuah benteng peninggalan Kerajaan Gowa-Tallo. Letak benteng ini berada di pinggir pantai sebelah barat Kota Makassar, Sulawesi Selatan.</p>\n', NULL, '2020-10-30 12:36:32'),
+(121, 2, 1, 'Benteng Marlborough', 'Jl. Benteng, Kebun Keling, Kec. Tlk. Segara, Kota Bengkulu, Bengkulu 38116', 17, 1771, '1771030', '-3.7869748', '102.2503252', 'Marlborough.jpg', '<p>Benteng Marlborough (Inggris: Fort Marlborough) adalah benteng peninggalan Inggris di kota Bengkulu.</p>\n', NULL, '2020-10-30 12:34:09'),
+(122, 2, 1, 'Benteng Oranje', 'Jl. Hasan Boesoeri, Gamalama, Ternate Tengah, Kota Ternate, Maluku Utara', 82, 8171, '8171020', '0.7928746', '127.3849056', 'Oranje.jpg', '<p>Benteng Oranje didirikan pada tanggal 26 Mei 1607 oleh Cornelis Matclief de Jonge dan diberi nama Benteng Oranje oleh Francois Wiltlentt pada tahun 1609 pada masa Pemerintahan Sultan Mudaffar</p>\n', NULL, '2020-10-30 12:35:22'),
+(123, 2, 1, 'Fort Rotterdam', 'No.Road, Jl. Ujung Pandang, Bulo Gading, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90171', 73, 7371, '7371050', '-5.1338631', '119.4031027', 'Fort.jpg', '<p>Fort Rotterdam atau Benteng Ujung Pandang (Jum Pandang) adalah sebuah benteng peninggalan Kerajaan Gowa-Tallo. Letak benteng ini berada di pinggir pantai sebelah barat Kota Makassar, Sulawesi Selatan.</p>\n', NULL, '2020-10-30 12:36:32'),
 (124, 1, 2, 'Borobudur', 'Jl. Badrawati, Kw. Candi Borobudur, Borobudur, Kec. Borobudur, Magelang, Jawa Tengah', 33, 3371, '3371010', '7.6078738', '110.2015626', 'Borobudur.jpg', '<p>adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta.</p>\n', NULL, '2020-10-30 12:37:58'),
-(125, 1, 2, 'Candi Prambanan', 'Jl. Raya Solo - Yogyakarta No.16, Kranggan, Bokoharjo, Kec. Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571', 34, 3404, '3404090', '-7.7520206', '110.4214296', 'Candi Prambanan.jpg', '<p>Candhi Prambanan) adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi.</p>\n', NULL, '2020-10-30 12:39:09'),
-(126, 10, 1, 'Museum Kebangkitan Nasional', 'Jl. Dr. Abdul Rahman Saleh No.26, RT.4/RW.5, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10410', 31, 3173, '3173030', '-6.178352', '106.8359053', 'Museum Kebangkitan Nasional.jpg', '<p>Museum Kebangkitan Nasional (bahasa Inggris: Museum of National Awakening) adalah sebuah gedung yang dibangun sebagai monumen tempat lahir dan berkembangnya kesadaran nasional</p>\n', NULL, '2020-10-30 12:40:02'),
-(127, 13, 1, 'Tutup Lawang Sewu', 'Jl. Pemuda, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132', 33, 3374, '3374130', '-7.3148342', '108.6016795', 'Tutup Lawang Sewu.jpg', '<p>adalah gedung bersejarah di Indonesia yang berlokasi di Kota Semarang, Jawa Tengah. Gedung ini, dahulu yang merupakan kantor</p>\n', NULL, '2020-10-30 12:41:01'),
+(125, 1, 2, 'Candi Prambanan', 'Jl. Raya Solo - Yogyakarta No.16, Kranggan, Bokoharjo, Kec. Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571', 34, 3404, '3404090', '-7.7520206', '110.4214296', 'Prambanan.jpg', '<p>Candhi Prambanan) adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi.</p>\n', NULL, '2020-10-30 12:39:09'),
+(126, 10, 1, 'Museum Kebangkitan Nasional', 'Jl. Dr. Abdul Rahman Saleh No.26, RT.4/RW.5, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10410', 31, 3173, '3173030', '-6.178352', '106.8359053', 'Museum.jpg', '<p>Museum Kebangkitan Nasional (bahasa Inggris: Museum of National Awakening) adalah sebuah gedung yang dibangun sebagai monumen tempat lahir dan berkembangnya kesadaran nasional</p>\n', NULL, '2020-10-30 12:40:02'),
+(127, 13, 1, 'Tutup Lawang Sewu', 'Jl. Pemuda, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132', 33, 3374, '3374130', '-7.3148342', '108.6016795', 'Tutup.jpg', '<p>adalah gedung bersejarah di Indonesia yang berlokasi di Kota Semarang, Jawa Tengah. Gedung ini, dahulu yang merupakan kantor</p>\n', NULL, '2020-10-30 12:41:01'),
 (128, 13, 1, 'Gedung Sate', 'Jl. Diponegoro No.22, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115', 32, 3273, '3273200', '-6.9024812', '107.6166213', 'gedungsate.jpg', '<p>dengan ciri khasnya berupa ornamen tusuk sate pada menara sentralnya, telah lama menjadi penanda atau markah tanah Kota Bandung</p>\n', NULL, '2020-10-30 12:42:04'),
-(129, 6, 2, 'Museum Siginjai Jambi', 'Jl. Jenderal Urip Sumoharjo, Sungai Putri, Kec. Telanaipura, Kota Jambi, Jambi 36124', 15, 1571, '1571050', '-1.6696081', '103.6835699', '1604098521_jambi.jpg', '<p><b style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">Museum</b><span style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">&nbsp;Negeri&nbsp;</span><b style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">Jambi</b><span style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">&nbsp;diresmikan pada tanggal 6 Juni 1988 oleh Menteri Pendidikan dan Kebudayaan Bapak Prof.DR. Fuad Hassan. ... Benda-benda warisan budaya yang terhimpun di&nbsp;</span><b style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">Museum</b><span style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">&nbsp;Ngeri&nbsp;</span><b style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">Jambi</b><span style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">&nbsp;merupakan warisan budaya yang mempunyai nilai-nilai luhur yang mencerminkan kehidupan masyarakat Provinsi&nbsp;</span><b style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">Jambi</b><span style=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; text-align: left;\">&nbsp;pada masa lalu</span></p>\n', '2020-10-30 15:55:21', '2020-10-30 15:55:21');
+(129, 6, 2, 'Museum Siginjai Jambi', 'Jl. Jenderal Urip Sumoharjo, Sungai Putri, Kec. Telanaipura, Kota Jambi, Jambi 36124', 15, 1571, '1571050', '-1.6696081', '103.6835699', 'MuseumSiginjai.jpg', 'Museum Negeri Jambi diresmikan pada tanggal 6 Juni 1988 oleh Menteri Pendidikan dan Kebudayaan Bapak Prof.DR. Fuad Hassan. ... Benda-benda warisan budaya yang terhimpun di Museum Ngeri Jambi merupakan warisan budaya yang mempunyai nilai-nilai luhur yang mencerminkan kehidupan masyarakat Provinsi Jambi pada masa lalu\r\n', '2020-10-30 15:55:21', '2020-10-30 15:55:21');
 
 -- --------------------------------------------------------
 
@@ -284,6 +284,7 @@ CREATE TABLE `provs` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `id_prov` int(11) NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `img` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -292,41 +293,41 @@ CREATE TABLE `provs` (
 -- Dumping data for table `provs`
 --
 
-INSERT INTO `provs` (`id`, `id_prov`, `name`, `created_at`, `updated_at`) VALUES
-(1, 11, 'Aceh', NULL, NULL),
-(2, 12, 'SUMATERA UTARA', NULL, NULL),
-(3, 13, 'SUMATERA BARAT', NULL, NULL),
-(4, 14, 'RIAU', NULL, NULL),
-(5, 15, 'JAMBI', NULL, NULL),
-(6, 16, 'SUMATERA SELATAN', NULL, NULL),
-(7, 17, 'BENGKULU', NULL, NULL),
-(8, 18, 'LAMPUNG', NULL, NULL),
-(9, 19, 'KEPULAUAN BANGKA BELITUNG', NULL, NULL),
-(10, 21, 'KEPULAUAN RIAU', NULL, NULL),
-(11, 31, 'DKI JAKARTA', NULL, NULL),
-(12, 32, 'JAWA BARAT', NULL, NULL),
-(13, 33, 'JAWA TENGAH', NULL, NULL),
-(14, 34, 'DI YOGYAKARTA', NULL, NULL),
-(15, 35, 'JAWA TIMUR', NULL, NULL),
-(16, 36, 'BANTEN', NULL, NULL),
-(17, 51, 'BALI', NULL, NULL),
-(18, 52, 'NUSA TENGGARA BARAT', NULL, NULL),
-(19, 53, 'NUSA TENGGARA TIMUR', NULL, NULL),
-(20, 61, 'KALIMANTAN BARAT', NULL, NULL),
-(21, 62, 'KALIMANTAN TENGAH', NULL, NULL),
-(22, 63, 'KALIMANTAN SELATAN', NULL, NULL),
-(23, 64, 'KALIMANTAN TIMUR', NULL, NULL),
-(24, 65, 'KALIMANTAN UTARA', NULL, NULL),
-(25, 71, 'SULAWESI UTARA', NULL, NULL),
-(26, 72, 'SULAWESI TENGAH', NULL, NULL),
-(27, 73, 'SULAWESI SELATAN', NULL, NULL),
-(28, 74, 'SULAWESI TENGGARA', NULL, NULL),
-(29, 75, 'GORONTALO', NULL, NULL),
-(30, 76, 'SULAWESI BARAT', NULL, NULL),
-(31, 81, 'MALUKU', NULL, NULL),
-(32, 82, 'MALUKU UTARA', NULL, NULL),
-(33, 91, 'PAPUA BARAT', NULL, NULL),
-(34, 94, 'PAPUA', NULL, NULL);
+INSERT INTO `provs` (`id`, `id_prov`, `name`, `img`, `created_at`, `updated_at`) VALUES
+(1, 11, 'ACEH', 'aceh.jpg', NULL, NULL),
+(2, 12, 'SUMATERA UTARA', 'sumut.jpg', NULL, NULL),
+(3, 13, 'SUMATERA BARAT', 'sumbar.jpg', NULL, NULL),
+(4, 14, 'RIAU', 'riau.jpg', NULL, NULL),
+(5, 15, 'JAMBI', 'jambi.jpg', NULL, NULL),
+(6, 16, 'SUMATERA SELATAN', 'sumsel.jpg', NULL, NULL),
+(7, 17, 'BENGKULU', 'bengkulu.jpg', NULL, NULL),
+(8, 18, 'LAMPUNG', 'lampung.jpg', NULL, NULL),
+(9, 19, 'KEPULAUAN BANGKA BELITUNG', 'bangkabelitung.jpg', NULL, NULL),
+(10, 21, 'KEPULAUAN RIAU', 'kepri.jpg', NULL, NULL),
+(11, 31, 'DKI JAKARTA', 'dki.jpg', NULL, NULL),
+(12, 32, 'JAWA BARAT', 'jabar.jpg', NULL, NULL),
+(13, 33, 'JAWA TENGAH', 'jateng.jpg', NULL, NULL),
+(14, 34, 'DI YOGYAKARTA', 'diy.jpg', NULL, NULL),
+(15, 35, 'JAWA TIMUR', 'jatim.jpg', NULL, NULL),
+(16, 36, 'BANTEN', 'banten.jpg', NULL, NULL),
+(17, 51, 'BALI', 'bali.jpg', NULL, NULL),
+(18, 52, 'NUSA TENGGARA BARAT', 'ntb.jpg', NULL, NULL),
+(19, 53, 'NUSA TENGGARA TIMUR', 'ntt.jpg', NULL, NULL),
+(20, 61, 'KALIMANTAN BARAT', 'kalbar.jpg', NULL, NULL),
+(21, 62, 'KALIMANTAN TENGAH', 'kalteng.jpg', NULL, NULL),
+(22, 63, 'KALIMANTAN SELATAN', 'kalsel.jpg', NULL, NULL),
+(23, 64, 'KALIMANTAN TIMUR', 'kaltim.jpg', NULL, NULL),
+(24, 65, 'KALIMANTAN UTARA', 'kaltara.jpg', NULL, NULL),
+(25, 71, 'SULAWESI UTARA', 'sulut.jpg', NULL, NULL),
+(26, 72, 'SULAWESI TENGAH', 'sulteng.jpg', NULL, NULL),
+(27, 73, 'SULAWESI SELATAN', 'sulsel.jpg', NULL, NULL),
+(28, 74, 'SULAWESI TENGGARA', 'sultenggara.jpg', NULL, NULL),
+(29, 75, 'GORONTALO', 'gorontalo.jpg', NULL, NULL),
+(30, 76, 'SULAWESI BARAT', 'sulbar.jpg', NULL, NULL),
+(31, 81, 'MALUKU', 'maluku.jpg', NULL, NULL),
+(32, 82, 'MALUKU UTARA', 'malut.jpg', NULL, NULL),
+(33, 91, 'PAPUA BARAT', 'pabar.jpg', NULL, NULL),
+(34, 94, 'PAPUA', 'papua.jpg', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -482,7 +483,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `role_id`, `alamat`, `gambar`) VALUES
-(3, 'Both', 'both@gmail.com', NULL, '$2y$10$gY3io57q6HCZoWYqnPRCP.itpqLZ8JfhhhoGvjY08VL3/hdmfBxeu', NULL, '2020-10-05 22:59:03', '2020-10-24 08:51:05', 1, '', ''),
+(3, 'Both', 'both@gmail.com', NULL, '$2y$10$.PaX9AT2ahyA4A8C5s5Raelr8Z6YZLCACEDwfZInXMHotoNEa.xe2', NULL, '2020-10-05 22:59:03', '2020-10-30 23:32:30', 1, '', ''),
 (4, 'Pulan', 'pulan@gmail.com', NULL, '$2y$10$12vtEx.dZeU2aGzlT.UUyOsxSXdB5hqqzkinMKJkMm3jxXF0LhFZG', 'gChe4UUaeiJe0r3WhZMrlqkMrJUhUNHUt6SuyE3jdZJUPMBzcg4WsjVR7ntb', '2020-10-05 22:59:48', '2020-10-05 23:02:40', 1, '', ''),
 (5, 'Coba User', 'coba@gmail.com', NULL, '$2y$10$HV6FsmOLmR4JejFk3CKMUemConqLYQLQFbnqlkTspjgfwb8Uu/j6e', NULL, '2020-10-15 03:39:29', '2020-10-15 03:39:29', 2, '', ''),
 (6, 'Irgi G', 'irgi@gmail.com', NULL, '$2y$10$K.uO.24fTxxEXBF1ryHyTedXpRpoLJUGfGgjkC8rkTeDZi4OaqTWa', NULL, '2020-10-15 10:38:15', '2020-10-15 10:38:15', 2, '', '');

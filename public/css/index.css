@@ -86,24 +86,31 @@ span.truncate {
     h1 {
         font-size: 28px;
     }
+
     h2 {
         font-size: 26px;
     }
+
     h3 {
         font-size: 24px;
     }
+
     h4 {
         font-size: 22px;
     }
+
     h5 {
         font-size: 20px;
     }
+
     h6 {
         font-size: 18px;
     }
+
     p {
         font-size: 14px;
     }
+
     .blockquote-footer {
         font-size: 14px;
         color: #2e3b53;
@@ -162,6 +169,25 @@ nav#media.main-navbar {
     transition: 0.5s;
 }
 
+/* Loader */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+.preloader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font: 14px arial;
+}
+
 .sticky ul.ml-auto li.nav-item a.nav-link {
     color: black;
     transition: 0.5s all;
@@ -178,9 +204,11 @@ nav#media.main-navbar {
     nav#web.main-navbar {
         display: none;
     }
+
     nav#media.main-navbar {
         display: inherit;
     }
+
     nav#media.main-navbar,
     nav#media.main-navbar.sticky {
         padding: 5px 8px;
@@ -188,30 +216,37 @@ nav#media.main-navbar {
         box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.017), 0 6.7px 5.3px rgba(0, 0, 0, 0.024), 0 12.5px 10px rgba(0, 0, 0, 0.03), 0 22.3px 17.9px rgba(0, 0, 0, 0.036), 0 41.8px 33.4px rgba(0, 0, 0, 0.043), 0 100px 80px rgba(0, 0, 0, 0.06);
         z-index: 900;
     }
+
     nav#media.main-navbar span.navbar-brand {
         transform: translateX(-50%);
         left: 50%;
         position: absolute;
     }
+
     nav#media.main-navbar span.navbar-brand:hover {
         color: #f8d1a9;
     }
+
     nav#media.main-navbar ul.ml-auto li.nav-item a.nav-link {
         color: black;
         transition: 0.5s all;
     }
+
     nav#media.main-navbar ul.ml-auto li.nav-item a.nav-link:hover,
     nav#media.main-navbar ul.ml-auto li.nav-item a.nav-link:focus,
     nav#media.main-navbar ul.ml-auto li.nav-item a.nav-link:active {
         color: #f8d1a9;
         transition: 0.5s;
     }
+
     nav#media.main-navbar #navbarDropdownMenuLink1.nav-link.dropdown-toggle {
         color: black;
     }
+
     nav#media.main-navbar .navbar-toggler {
         border: none;
     }
+
     nav#media.main-navbar .navbar-toggler:hover,
     nav#media.main-navbar .navbar-toggler:focus,
     nav#media.main-navbar .navbar-toggler:active {
@@ -219,6 +254,7 @@ nav#media.main-navbar {
         outline: none;
         border: none;
     }
+
     nav#media.main-navbar .navbar-toggler .navbar-toggler-icon {
         color: white;
     }
@@ -301,27 +337,33 @@ nav#media.main-navbar {
         background: white;
         box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.017), 0 6.7px 5.3px rgba(0, 0, 0, 0.024), 0 12.5px 10px rgba(0, 0, 0, 0.03), 0 22.3px 17.9px rgba(0, 0, 0, 0.036), 0 41.8px 33.4px rgba(0, 0, 0, 0.043), 0 100px 80px rgba(0, 0, 0, 0.06);
     }
+
     .main-navbar-sub span.navbar-brand {
         transform: translateX(-50%);
         left: 50%;
         position: absolute;
     }
+
     .main-navbar-sub span.navbar-brand:hover {
         color: #f8d1a9;
     }
+
     .main-navbar-sub ul.ml-auto li.nav-item a.nav-link {
         color: black;
         transition: 0.5s all;
     }
+
     .main-navbar-sub ul.ml-auto li.nav-item a.nav-link:hover,
     .main-navbar-sub ul.ml-auto li.nav-item a.nav-link:focus,
     .main-navbar-sub ul.ml-auto li.nav-item a.nav-link:active {
         color: #f8d1a9;
         transition: 0.5s;
     }
+
     .main-navbar-sub .navbar-toggler {
         border: none;
     }
+
     .main-navbar-sub .navbar-toggler:hover,
     .main-navbar-sub .navbar-toggler:focus,
     .main-navbar-sub .navbar-toggler:active {
@@ -329,6 +371,7 @@ nav#media.main-navbar {
         outline: none;
         border: none;
     }
+
     .main-navbar-sub .navbar-toggler .navbar-toggler-icon {
         color: black;
     }
@@ -350,7 +393,7 @@ nav#media.main-navbar {
 */
 
 .jumbotron {
-    background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 100%), url("/assets/img/user/main.jpg") no-repeat center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 100%), url("/assets/img/user/main.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -397,6 +440,7 @@ nav#media.main-navbar {
 }
 
 @keyframes bounce {
+
     0%,
     20%,
     50%,
@@ -404,9 +448,11 @@ nav#media.main-navbar {
     100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-30px);
     }
+
     60% {
         transform: translateY(-15px);
     }
@@ -416,15 +462,15 @@ a .fa.fa-arrow-down {
     color: white;
     text-decoration: none;
     background: transparent;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 50%;
-    border: 1px solid white;
-    padding: 5px;
+    border: 2px solid white;
+    padding: 7px;
     transition: 0.5s;
 }
 
 a .fa.fa-arrow-down:hover {
-    color: #f8d1a9;
+    color: #282828;
     background: white;
 }
 
@@ -482,6 +528,7 @@ a.hyper:hover {
     section#web-info.info {
         display: none;
     }
+
     section#media-info.info {
         display: inherit;
     }
@@ -501,7 +548,7 @@ section.description {
     margin: 90px 0;
 }
 
-section.description .col-md-6:nth-of-type(1) h4 {
+section.description h4 {
     font-weight: bold;
 }
 
@@ -741,12 +788,15 @@ p.kp {
         width: 50%;
         display: inline-flex;
     }
+
     section.search-bar .input-group {
         width: 100%;
     }
+
     p.kp {
         margin-top: 0;
     }
+
     footer .col-md-4 {
         text-align: center;
     }
@@ -835,6 +885,7 @@ section.reply .media .media-body p {
     section.detail#web {
         display: none;
     }
+
     section.detail#media {
         display: inherit;
     }
@@ -908,10 +959,12 @@ section.about ul.social li a i.fa {
     section.about h1 {
         text-align: center;
     }
+
     section.about img.img-fluid {
         width: 310px;
         height: 186.34px;
     }
+
     section.about ul.social {
         padding: 0;
     }

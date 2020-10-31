@@ -50,7 +50,7 @@
                         <a class="nav-link" href="{{route('kategori.index')}}">Kategori</a>
                     </li>
                     <li class="nav-item {{ (request()->is('map')) ? 'active' : '' }}">
-                        <a class="nav-link" href="{{route('map.index')}}">Peta</a>
+                        <a class="nav-link" href="{{route('map.index')}}">Peta Budaya</a>
                     </li>
                     <li class="nav-item {{ (request()->is('tentang')) ? 'active' : '' }}">
                         <a class="nav-link" href="{{route('tentang.index')}}">Tentang</a>
@@ -86,7 +86,7 @@
                         <a class="nav-link" href="{{route('kategori.index')}}">Kategori</a>
                     </li>
                     <li class="nav-item {{ (request()->is('map')) ? 'active' : '' }}">
-                        <a class="nav-link" href="{{route('map.index')}}">Peta</a>
+                        <a class="nav-link" href="{{route('map.index')}}">Peta Budaya</a>
                     </li>
                     <li class="nav-item {{ (request()->is('tentang')) ? 'active' : '' }}">
                         <a class="nav-link" href="{{route('tentang.index')}}">Tentang</a>
@@ -99,6 +99,11 @@
         </div>
     </nav>
     <!-- End Navbar Media -->
+    <div class="preloader">
+        <div class="loading">
+            <img src="{{ asset('assets/img/spinner.gif') }}" width="108" height="108">
+        </div>
+    </div>
     <!-- conten -->
     @yield('content')
     <!-- end contem -->
@@ -156,11 +161,11 @@
                 <div class="col-md-4 text-center">
                     <h4>Ikuti Kami</h4>
                     <div class="social-footer">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-google"></i></a>
-                        <a href="#"><i class="fa fa-youtube"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#href"><i class="fa fa-facebook"></i></a>
+                        <a href="#href"><i class="fa fa-twitter"></i></a>
+                        <a href="#href"><i class="fa fa-google"></i></a>
+                        <a href="#href"><i class="fa fa-youtube"></i></a>
+                        <a href="#href"><i class="fa fa-instagram"></i></a>
                     </div>
                     <small class="text-center text-muted">
                         Copyright - 2020

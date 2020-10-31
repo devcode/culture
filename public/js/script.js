@@ -7,7 +7,7 @@ $('body').on('click', '.modal-show', function (event) {
 
     $('#modal-title').text(title);
     $('#modal-btn-save').removeClass('hide')
-    .text(me.hasClass('edit') ? 'Ubah' : 'Tambah');
+        .text(me.hasClass('edit') ? 'Ubah' : 'Tambah');
 
     $.ajax({
         url: url,
@@ -31,21 +31,21 @@ $('#modal-btn-save').click(function (event) {
     form.find('.form-group').removeClass('has-error');
 
     $.ajax({
-        url : url,
+        url: url,
         method: method,
-        data : form.serialize(),
+        data: form.serialize(),
         success: function (response) {
             form.trigger('reset');
             $('#modal').modal('hide');
             $('#datatable').DataTable().ajax.reload();
 
             swal({
-                type  : 'success',
-                title : 'Berhasil!',
-                text  : 'Data Telah Tersimpan!'
+                type: 'success',
+                title: 'Berhasil!',
+                text: 'Data Telah Tersimpan!'
             });
         },
-        error : function (xhr) {
+        error: function (xhr) {
             var res = xhr.responseJSON;
             if ($.isEmptyObject(res) == false) {
                 $.each(res.errors, function (key, value) {

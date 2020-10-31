@@ -10,21 +10,21 @@ Admin Cagar Budaya
     <hr>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-4">
-            <div class="card-body-row" style="background: #ef5777;">
+        <div class="col-xs-12 col-sm-6">
+            <div class="card-body-row" style="background: #ef5777; padding: 10px 30px 10px 20px;">
                 <div class="card-body-icon">
-                    <i class="fas fa-table"></i>
+                    <i class="fas fa-user"></i>
                 </div>
                 <h5 class="card-title">User</h5>
                 <div class="display-4">
                     {{$user}}
                 </div>
-                <a href="#">
+            <a href="{{route('user.index')}}">
                     <h6 class="card-text">Lihat Detail <i class="fas fa-angle-double-right ml-2"></i></h6>
                 </a>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4">
+        <div class="col-xs-12 col-sm-6">
             <div class="card-body-row" style="background: #575fcf;">
                 <div class="card-body-icon">
                     <i class="fas fa-table"></i>
@@ -33,25 +33,25 @@ Admin Cagar Budaya
                 <div class="display-4">
                     {{$lokasi}}
                 </div>
-                <a href="#">
+                <a href="{{route('lokasi.index')}}">
                     <h6 class="card-text">Lihat Detail <i class="fas fa-angle-double-right ml-2"></i></h6>
                 </a>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4">
+        {{-- <div class="col-xs-12 col-sm-4">
             <div class="card-body-row" style="background: #ffdd59;">
                 <div class="card-body-icon">
-                    <i class="fas fa-table"></i>
+                    <i class="fas fa-comments"></i>
                 </div>
-                <h5 class="card-title">Artikel</h5>
+                <h5 class="card-title">Ulasan</h5>
                 <div class="display-4">
                     {{$ulasan}}
                 </div>
-                <a href="#">
+                <a href="{{route('ulasan.index')}}">
                     <h6 class="card-text">Lihat Detail <i class="fas fa-angle-double-right ml-2"></i></h6>
                 </a>
             </div>
-        </div>
+        </div> --}}
     </div>
 
 

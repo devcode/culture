@@ -10,7 +10,7 @@
                    Culture
                </h1>
                <p class="lead" data-aos="fade-left" data-aos-duration="2200" data-aos-delay="700" data-aos-offset="0">
-                   Mari kita jelajahi kebudayaan dan cagar budaya di nusantara disini
+                   Mari kita jelajahi kebudayaan dan cagar budaya di nusantara ini
                </p>
            </div>
            <div class="arrow bounce mx-auto">
@@ -40,7 +40,7 @@
                </div>
                <div class="col-md-4 my-auto">
                    <h4>Apa yang harus di jelajahi di Indonesia ?</h4>
-                   <p class="text-justify">
+                   <p class="text-justify mt-4">
                        Disini kita bisa mengetahui seluruh Cagar Budaya di Nusantara agar kalian dapat menyadari bahwa ada dan masih banyak tempat Cagar Budaya di Nusantara ini. Seperti yang kita ketahui, negara Indonesia ini sangatlah luas dan sangat ragam dengan kebudayaan
                        nya dan salah satunya Cagar Budaya yang tidak banyak diketahui oleh orang banyak.
                    </p>
@@ -86,7 +86,7 @@
            <div class="row">
                <div class="col-md-5 my-auto">
                    <h4>Apa itu Cagar Budaya ?</h4>
-                   <p class="text-justify">
+                   <p class="text-justify mt-4">
                        Dalam <b>UU No 11 Tahun 2010</b>, dijelaskan bahwa <b>Cagar budaya</b> adalah warisan budaya bersifat kebendaan berupa Benda Cagar Budaya, Bangunan Cagar Budaya, Struktur Cagar Budaya, Situs Cagar Budaya, dan Kawasan Cagar Budaya
                        di darat dan atau di air yang perlu dilestarikan keberadaannya karena memiliki nilai penting bagi sejarah, ilmu pengetahuan, pendidikan, agama, dan atau kebudayaan melalui proses penetapan.
                    </p>
@@ -124,12 +124,12 @@
                            Anggota DPRD Makassar Periode 2009-2019
                        </small>
                        <blockquote class="blockquote text-right mt-2 font-italic">
-                           <p class="mb-0 text-justify">
+                           <p class="mb-0 mt-4 text-center" style="font-size: 14px;">
                                "Cagar budaya harus dijaga dan dilestarikan agar tidak terlupakan oleh perkembangan zaman. Ada 105 bangunan tua peninggalan sejarah yang sudah di inventarisasi. Makanya, dibuat perda untuk menjaganya . Kalau kita melihat, Makassar dulunya merupakan kota
                                budaya dengan peninggalan sejumlah Cagar Budaya, tetapi itu mulai tergerus dengan meningkatnya pembangunan kota secara moderen. Ini harus dicegah demi penyelamatan budaya kita. Saya menaruh harapan besar agar dapat secepatnya
                                dibuatkan naskah akademik dan disahkan menjadi perda sehingga cagar budaya masih terjaga hingga anak cucu kita di masa mendatang."
                            </p>
-                           <footer class="blockquote-footer font-weight-normal">13/07/2012, 10:45 WIB <cite title="Source Title">Kompas.com</cite></footer>
+                           <footer class="blockquote-footer font-weight-normal" style="font-size: 14px;">13/07/2012, 10:45 WIB <cite title="Source Title">Kompas.com</cite></footer>
                        </blockquote>
                    </div>
                </div>
@@ -143,10 +143,10 @@
 
    <section class="preview">
        <div class="container">
-           <div class="row">
+           <div class="row mb-5">
                <div class="col-md-6 my-auto">
-                   <h4>Cagar Budaya Indonesia</h4>
-                   <p class="text-justify">
+                   <h4 style="font-weight: bold;">Cagar Budaya Indonesia</h4>
+                   <p class="mt-4 text-justify">
                        Untuk itu, sudah seharusnya kita sebagai warga negara Indonesia menjaga dan melestarikan Kebudayaan dan Cagar Budaya yang ada di Nusantara ini agar tidak punah dan berdampak negatif untuk semua orang. Selain itu, agar generasi generasi selanjutnya dapat
                        merasakan dan ikut menyadari bahwa pentingnya menjaga Kebudayaan dan Cagar Budaya di Nusantara ini.
                    </p>

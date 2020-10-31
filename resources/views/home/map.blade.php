@@ -204,7 +204,7 @@
                 alert('Terjadi Sebuah Kesalahan');
             }
         });
-
+        
     $('#keinginan').on('change',function() {
         let cs = '{{ csrf_token() }}';
         parentGroup.clearLayers();
@@ -278,6 +278,7 @@
             success: function (json) {
                 var last = {};
                 json.forEach(element => {
+                    console.log(element);
                     const regex = /sw/gi;
                     const str = '{{ url("/detail", ["id" => "sw"]) }}'
                     var link = str.replace(regex, element.id) ;
@@ -459,7 +460,7 @@
                     cache: false,
                     dataType: 'json',
                     success: function (json) {
-                        console.log(json.data.id);
+                        
                         $("#kabupaten").html('');
                         if (json.code == 200) {
                             for (i = 0; i < Object.keys(json.data).length; i++) {

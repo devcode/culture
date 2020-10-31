@@ -44,27 +44,7 @@ Route::post('/car-sej', 'SearchController@sejarah');
 Route::get('/detail/{id}', 'HomeController@detail')->name('detail');
 
 
-//
-// Route::get('/tentang', 'UsersController@about')->name('tentang');
-// Route::get('/kontak', 'UsersController@kontak')->name('kontak');
-// Route::get('/kategori', 'UsersController@kategori')->name('kategori');
-//
-// //home
-// Route::get('/home', 'HomeController@index')->name('home');
-// Route::get('/prov', 'HelpController@prov')->name('prov');
-// // profile
-// Route::resource('/profile', 'ProfileController');
-// // Route::get('/password', 'SetingController')->name('seting');
-// // Map
-// Route::get('/map', 'MapController@index')->name('map');
-// Route::get('/dataMap', 'MapController@mapData')->name('map');
-// Route::get('/mapIcon', 'MapController@iconMap');
-// // Crud
-// Route::resource('/article', 'ArticleController');
-// Route::resource('/type-place', 'TypePlaceController');
-// Route::resource('/site', 'SitePlaceController');
-// // Help
-//
+
 
 
 // admin
@@ -87,6 +67,10 @@ Route::get('/table/lokasi', 'LokasiController@dataTable')->name('table.lokasi');
 // icon
 Route::resource('/icon', 'IconController');
 Route::get('/table/icon', 'IconController@dataTable')->name('table.icon');
+// andicon
+// icon
+// Route::resource('/ulas', 'UlasController');
+// Route::get('/table/ulas', 'UlasController@dataTable')->name('table.ulas');
 // andicon
 // lokasi culture
 Route::resource('/culture', 'LokasiBudayaController');

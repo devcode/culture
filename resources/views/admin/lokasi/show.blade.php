@@ -33,6 +33,6 @@
         </div>
     </div>
     <div class="form-group text-center">
-        <img src="{{ asset('deskripsi/'.$deskripsi->gambar)}}" alt="..." class="img-thumbnail">
+        <img src="{{ asset('deskripsi/'.$model->gambar)}}" alt="..." class="img-thumbnail">
     </div>
 </form>

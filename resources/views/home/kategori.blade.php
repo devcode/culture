@@ -31,7 +31,7 @@
                 <div class="col-md-2">
                     <a href="{{route('kategori.show', $prov->id)}}" class="link-detail">
                         <div class="card">
-                            <img src="{{asset('assets/img/user/main.jpg')}}" alt="" class="card-img-top">
+                            <img src="{{asset('landmark/'.$prov->img)}}" alt="" class="card-img-top">
                             <div class="img__description_layer">
                                 <div class="img__description my-auto">
                                     <h5>{{$prov->name}}</h5>

@@ -73,11 +73,6 @@ return [
             'database' => ltrim($database['path'], '/'),
             'username' => $database['user'],
             'password' => $database['pass'],
-            'charset' => 'utf8',
-            'prefix' => '',
-            'prefix_indexes' => true,
-            'schema' => 'public',
-            'sslmode' => 'prefer',
         ],
 
         'sqlsrv' => [

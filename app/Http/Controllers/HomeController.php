@@ -34,7 +34,7 @@ class HomeController extends Controller
   {
     $judul = Lokasi::findOrFail($id);
     $ulasan = Ulasan::where('id_lokasi', $id)->get();
-    $tipe = DB::table('kategori')->where('id_kat', $judul->kat)->first();
+    $tipe = DB::table('kategoris')->where('id_kat', $judul->kat)->first();
     $send = ['judul' => $judul, 'tipe' => $tipe, 'ulasan' => $ulasan, 'angka' => count($ulasan)];
     return view('home.detail-lok', $send);
   }

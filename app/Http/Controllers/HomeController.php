@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Deskripsi;
+use App\Kategori;
 use App\Lokasi;
 use App\Ulasan;
 use Illuminate\Support\Facades\DB;
@@ -34,7 +35,7 @@ class HomeController extends Controller
   {
     $judul = Lokasi::findOrFail($id);
     $ulasan = Ulasan::where('id_lokasi', $id)->get();
-    $tipe = DB::table('kategoris')->where('id_kat', $judul->kat)->first();
+    $tipe = Kategori::where('id_kat', $judul->kat)->first();
     $send = ['judul' => $judul, 'tipe' => $tipe, 'ulasan' => $ulasan, 'angka' => count($ulasan)];
     return view('home.detail-lok', $send);
   }

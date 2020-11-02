@@ -8,7 +8,7 @@
 
     <title>@yield('title')</title>
 
-    <link rel="icon" href="{{ asset('assets/img/favicon.ico') }}">
+    <link rel="icon" href="/assets/img/favicon.ico">
 
     <!-- Bootstrap core CSS -->
 
@@ -38,13 +38,13 @@
 
 
     <!-- Datatables -->
-    <link href="{{ asset('assets/vendor/datatables/datatables.min.css') }}" rel="stylesheet">
+    <link href="/assets/vendor/datatables/datatables.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="{{ asset('assets/vendor/fontawesome-free/css/all.css') }}" rel="stylesheet">
+    <link href="/assets/vendor/fontawesome-free/css/all.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="{{ asset('assets/css/ie10-viewport-bug-workaround.css') }}" rel="stylesheet">
+    <link href="/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
 
     <!-- Font Awesome JS -->
@@ -52,16 +52,17 @@
         integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
     </script>
     <!-- Custom styles for laravel -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
     {{-- Sweet --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     @stack('styles')
 
     <style media="screen">
-    #mapid {
-        height: 400px;
-        margin-bottom: 10px;
-    }
+        #mapid {
+            height: 400px;
+            margin-bottom: 10px;
+        }
+
     </style>
 
 </head>
@@ -134,17 +135,17 @@
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script> -->
             <!-- Placed at the end of the document so the pages load faster -->
-            <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
-            <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+            <script src="/assets/vendor/jquery/jquery.min.js"></script>
+            <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
             <!-- Datatables -->
-            <script src="{{ asset('assets/vendor/datatables/datatables.min.js') }}"></script>
+            <script src="/assets/vendor/datatables/datatables.min.js"></script>
 
             <!-- Sweetalert2 -->
-            <script src="{{ asset('assets/vendor/sweetalert2/sweetalert2.all.min.js') }}"></script>
+            <script src="/assets/vendor/sweetalert2/sweetalert2.all.min.js"></script>
 
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-            <script src="{{ asset('assets/js/ie10-viewport-bug-workaround.js') }}"></script>
+            <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
 
             <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
 
@@ -166,185 +167,188 @@
 
 
             {{-- script --}}
-            <script src="{{ asset('js/script.js') }}"></script>
+            <script src="/js/script.js"></script>
             {{-- sidebar --}}
             <script type="text/javascript">
-            $(document).ready(function() {
-                $('#sidebarCollapse').on('click', function() {
-                    $('#sidebar').toggleClass('active');
-                    $(this).toggleClass('active');
+                $(document).ready(function () {
+                    $('#sidebarCollapse').on('click', function () {
+                        $('#sidebar').toggleClass('active');
+                        $(this).toggleClass('active');
+                    });
+
                 });
 
-            });
-
-            $.ajaxSetup({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                }
-            });
-
-            $('#formSave').submit(function(e) {
-                e.preventDefault();
-                var request = new FormData(this);
-
-                $('#formSave').removeClass('hide')
-
-                $.ajax({
-                    url: "{{ route('lokasi.store') }}",
-                    method: "POST",
-                    data: request,
-                    contentType: false,
-                    cache: false,
-                    processData: false,
-                    success: function(data) {
-                        if (data == "sukses") {
-                            $('#closeModalTambah').click();
-                            $('#formSave')[0].reset();
-                            swal({
-                                type: 'success',
-                                title: 'Berhasil!',
-                                text: 'Data Telah Tersimpan!'
-                            });
-                            loadDataTable();
-                        }
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                     }
                 });
-            });
+
+                $('#formSave').submit(function (e) {
+                    e.preventDefault();
+                    var request = new FormData(this);
+
+                    $('#formSave').removeClass('hide')
+
+                    $.ajax({
+                        url: "{{ route('lokasi.store') }}",
+                        method: "POST",
+                        data: request,
+                        contentType: false,
+                        cache: false,
+                        processData: false,
+                        success: function (data) {
+                            if (data == "sukses") {
+                                $('#closeModalTambah').click();
+                                $('#formSave')[0].reset();
+                                swal({
+                                    type: 'success',
+                                    title: 'Berhasil!',
+                                    text: 'Data Telah Tersimpan!'
+                                });
+                                loadDataTable();
+                            }
+                        }
+                    });
+                });
+
             </script>
 
             <script>
-            $(document).ready(function() {
+                $(document).ready(function () {
 
-                var tiles = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
-                        maxZoom: 20,
-                        subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
-                    }),
-                    latlng = L.latLng(-2.039833, 123.8244163);
+                    var tiles = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
+                            maxZoom: 20,
+                            subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+                        }),
+                        latlng = L.latLng(-2.039833, 123.8244163);
 
-                var map = L.map('mapid', {
-                    center: latlng,
-                    zoom: 4,
-                    layers: [tiles]
-                });
-                var popup = L.popup();
+                    var map = L.map('mapid', {
+                        center: latlng,
+                        zoom: 4,
+                        layers: [tiles]
+                    });
+                    var popup = L.popup();
 
-                function onMapClick(e) {
-                    popup
-                        .setLatLng(e.latlng)
-                        .setContent("Latitude dan Longitude " + e.latlng.toString())
-                        .openOn(map);
-                    $('#latitude').val(e.latlng.lat);
-                    $('#longitude').val(e.latlng.lng);
-                    console.log(e);
-                }
-                map.on('click', onMapClick);
-                fetch('https://x.rajaapi.com/poe')
-                    .then(r => r.json())
-                    .then(r => {
-                        $.ajax({
-                            url: `https://x.rajaapi.com/MeP7c5ne${r.token}/m/wilayah/provinsi`,
-                            type: 'get',
-                            dataType: 'json',
-                            success: (re => {
-                                let tes = re.data;
-                                for (const i in tes) {
-                                    $('#provinsi').append(`
-                    <option value="${tes[i].id}">${tes[i].name}</option>
-                    `)
-                                }
-                            })
-                        })
-                    })
-
-
-                $('#provinsi').on('change', function() {
-                    const id = $(this).val();
+                    function onMapClick(e) {
+                        popup
+                            .setLatLng(e.latlng)
+                            .setContent("Latitude dan Longitude " + e.latlng.toString())
+                            .openOn(map);
+                        $('#latitude').val(e.latlng.lat);
+                        $('#longitude').val(e.latlng.lng);
+                        console.log(e);
+                    }
+                    map.on('click', onMapClick);
                     fetch('https://x.rajaapi.com/poe')
                         .then(r => r.json())
                         .then(r => {
                             $.ajax({
-                                url: `https://x.rajaapi.com/MeP7c5ne${r.token}/m/wilayah/kabupaten?idpropinsi=${id}`,
+                                url: `https://x.rajaapi.com/MeP7c5ne${r.token}/m/wilayah/provinsi`,
                                 type: 'get',
                                 dataType: 'json',
                                 success: (re => {
                                     let tes = re.data;
                                     for (const i in tes) {
-                                        $('#kabupaten').append(`
+                                        $('#provinsi').append(`
+                    <option value="${tes[i].id}">${tes[i].name}</option>
+                    `)
+                                    }
+                                })
+                            })
+                        })
+
+
+                    $('#provinsi').on('change', function () {
+                        const id = $(this).val();
+                        fetch('https://x.rajaapi.com/poe')
+                            .then(r => r.json())
+                            .then(r => {
+                                $.ajax({
+                                    url: `https://x.rajaapi.com/MeP7c5ne${r.token}/m/wilayah/kabupaten?idpropinsi=${id}`,
+                                    type: 'get',
+                                    dataType: 'json',
+                                    success: (re => {
+                                        let tes = re.data;
+                                        for (const i in tes) {
+                                            $('#kabupaten').append(`
                         <option value="${tes[i].id}">${tes[i].name}</option>
                         `)
-                                    }
+                                        }
+                                    })
                                 })
                             })
-                        })
-                })
+                    })
 
-                $('#kabupaten').on('change', function() {
-                    const id = $(this).val();
-                    fetch('https://x.rajaapi.com/poe')
-                        .then(r => r.json())
-                        .then(r => {
-                            $.ajax({
-                                url: `https://x.rajaapi.com/MeP7c5ne${r.token}/m/wilayah/kecamatan?idkabupaten=${id}`,
-                                type: 'get',
-                                dataType: 'json',
-                                success: (re => {
-                                    let tes = re.data;
-                                    for (const i in tes) {
-                                        $('#kecamatan').append(`
+                    $('#kabupaten').on('change', function () {
+                        const id = $(this).val();
+                        fetch('https://x.rajaapi.com/poe')
+                            .then(r => r.json())
+                            .then(r => {
+                                $.ajax({
+                                    url: `https://x.rajaapi.com/MeP7c5ne${r.token}/m/wilayah/kecamatan?idkabupaten=${id}`,
+                                    type: 'get',
+                                    dataType: 'json',
+                                    success: (re => {
+                                        let tes = re.data;
+                                        for (const i in tes) {
+                                            $('#kecamatan').append(`
                     <option value="${tes[i].id}">${tes[i].name}</option>
                     `)
-                                    }
+                                        }
+                                    })
                                 })
                             })
-                        })
 
-                })
+                    })
 
-            });
+                });
+
             </script>
             <script type="text/javascript">
-            $(document).ready(function() {
-                $('#deskripsi').summernote({
-                    // dialogsInBody: true,
-                    height: 300,
-                    // minHeight: null,
-                    // maxHeight: null,
-                    toolbar: [
-                        ['style', ['style']],
-                        ['font', ['bold', 'underline', 'clear']],
-                        ['fontname', ['fontname']],
-                        ['color', ['color']],
-                        ['para', ['ul', 'ol', 'paragraph']],
-                        ['table', ['table']],
-                        ['insert', ['link', 'picture']]
-                    ]
+                $(document).ready(function () {
+                    $('#deskripsi').summernote({
+                        // dialogsInBody: true,
+                        height: 300,
+                        // minHeight: null,
+                        // maxHeight: null,
+                        toolbar: [
+                            ['style', ['style']],
+                            ['font', ['bold', 'underline', 'clear']],
+                            ['fontname', ['fontname']],
+                            ['color', ['color']],
+                            ['para', ['ul', 'ol', 'paragraph']],
+                            ['table', ['table']],
+                            ['insert', ['link', 'picture']]
+                        ]
+                    });
                 });
-            });
 
-            $(document).on("show.bs.modal", '.modal', function(event) {
-                console.log("Global show.bs.modal fire");
-                var zIndex = 100000 + (10 * $(".modal:visible").length);
-                $(this).css("z-index", zIndex);
-                setTimeout(function() {
-                    $(".modal-backdrop").not(".modal-stack").first().css("z-index", zIndex - 1)
-                        .addClass("modal-stack");
-                }, 0);
-            }).on("hidden.bs.modal", '.modal', function(event) {
-                console.log("Global hidden.bs.modal fire");
-                $(".modal:visible").length && $("body").addClass("modal-open");
-            });
-            $(document).on('inserted.bs.tooltip', function(event) {
-                console.log("Global show.bs.tooltip fire");
-                var zIndex = 100000 + (10 * $(".modal:visible").length);
-                var tooltipId = $(event.target).attr("aria-describedby");
-                $("#" + tooltipId).css("z-index", zIndex);
-            });
-            $(document).on('inserted.bs.popover', function(event) {
-                console.log("Global inserted.bs.popover fire");
-                var zIndex = 100000 + (10 * $(".modal:visible").length);
-                var popoverId = $(event.target).attr("aria-describedby");
-                $("#" + popoverId).css("z-index", zIndex);
-            });
+                $(document).on("show.bs.modal", '.modal', function (event) {
+                    console.log("Global show.bs.modal fire");
+                    var zIndex = 100000 + (10 * $(".modal:visible").length);
+                    $(this).css("z-index", zIndex);
+                    setTimeout(function () {
+                        $(".modal-backdrop").not(".modal-stack").first().css("z-index", zIndex - 1)
+                            .addClass("modal-stack");
+                    }, 0);
+                }).on("hidden.bs.modal", '.modal', function (event) {
+                    console.log("Global hidden.bs.modal fire");
+                    $(".modal:visible").length && $("body").addClass("modal-open");
+                });
+                $(document).on('inserted.bs.tooltip', function (event) {
+                    console.log("Global show.bs.tooltip fire");
+                    var zIndex = 100000 + (10 * $(".modal:visible").length);
+                    var tooltipId = $(event.target).attr("aria-describedby");
+                    $("#" + tooltipId).css("z-index", zIndex);
+                });
+                $(document).on('inserted.bs.popover', function (event) {
+                    console.log("Global inserted.bs.popover fire");
+                    var zIndex = 100000 + (10 * $(".modal:visible").length);
+                    var popoverId = $(event.target).attr("aria-describedby");
+                    $("#" + popoverId).css("z-index", zIndex);
+                });
+
             </script>
 
 

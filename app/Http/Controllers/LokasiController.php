@@ -111,7 +111,7 @@ class LokasiController extends Controller
   public function show($id)
   {
     $model = Lokasi::findOrFail($id);
-    $kategori = DB::table('kategori')->get();
+    $kategori = DB::table('kategoris')->get();
     return view('admin.lokasi.show')
       ->with(compact('model'))
       ->with(compact('kategori'));

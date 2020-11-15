@@ -161,12 +161,14 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/dataMap') }}',
-            method: "POST",
+            method: "post",
             dataType: "json",
+            data: {
+                _token:cs
+            },
             success: function (json) {
                 var last = {};
                 json.forEach(element => {
-                    
                     const regex = /sw/gi;
                     const str = '{{ url("/detail", ["id" => "sw"]) }}'
                     var link = str.replace(regex, element.id) ;
@@ -204,10 +206,10 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKat') }}',
-            method: "POST",
+            method: "post",
             dataType: "json",
             data: {
-               
+                _token:cs,
                 kat:$(this).val(),
                 prov:$('#propinsi').val()
             },
@@ -262,10 +264,10 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapProv') }}',
-            method: "POST",
+            method: "post",
             dataType: "json",
             data: {
-               
+                _token:cs,
                 provinsi: $(this).val(),
                 kat: $('#keinginan').val()
             },
@@ -320,10 +322,10 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKab') }}',
-            method: "POST",
+            method: "post",
             dataType: "json",
             data: {
-               
+                _token:cs,
                 provinsi: $('#propinsi').val(),
                 kat: $('#keinginan').val(),
                 kabupaten: $(this).val()
@@ -369,10 +371,10 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKec') }}',
-            method: "POST",
+            method: "post",
             dataType: "json",
             data: {
-               
+                _token:cs,
                 provinsi: $('#propinsi').val(),
                 kabupaten: $('#kabupaten').val(),
                 kat: $('#keinginan').val(),

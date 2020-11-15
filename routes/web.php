@@ -17,9 +17,10 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('/');
 
-Route::get('/map', 'BisaController@index')->name('map.index');
-
 Route::post('/send-email', 'MailController@send')->name('kirim-weh');
+
+
+Route::get('/map', 'BisaController@index')->name('map.index');
 
 Route::post('/dataMap', 'BisaController@mapData')->name('map');
 Route::post('/mapProv', 'BisaController@provData');

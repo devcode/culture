@@ -17,16 +17,15 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('/');
 
-Route::get('/map', 'MapController@index')->name('map.index');
+Route::get('/map', 'BisaController@index')->name('map.index');
 
 Route::post('/send-email', 'MailController@send')->name('kirim-weh');
 
-Route::get('/v-2', 'MapController@v2')->name('v2.index');
-Route::post('/dataMap', 'MapController@mapData')->name('map');
-Route::post('/mapProv', 'MapController@provData');
-Route::post('/mapKab', 'MapController@kabData');
-Route::post('/mapKec', 'MapController@kecData');
-Route::post('/mapKat', 'MapController@katData');
+Route::post('/dataMap', 'BisaController@mapData')->name('map');
+Route::post('/mapProv', 'BisaController@provData');
+Route::post('/mapKab', 'BisaController@kabData');
+Route::post('/mapKec', 'BisaController@kecData');
+Route::post('/mapKat', 'BisaController@katData');
 
 Route::resource('/tentang', 'TentangController');
 

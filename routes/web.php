@@ -26,7 +26,7 @@ Route::post('/send-email', 'MailController@send')->name('kirim-weh');
 Route::post('/dataMap', 'MapController@mapData')->name('map');
 
 // Route::post('/dataMap', 'MapController@mapData')->name('map');
-Route::post('/dataMap', function () {
+Route::get('/dataMap', function () {
     $data = Lokasi::with('type')->get();
     return response()->json($data);
 })->name('map');

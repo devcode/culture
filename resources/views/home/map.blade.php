@@ -69,10 +69,6 @@
 
 <script>
     //define icon image locations
-    // let foodIcon = "{{ asset('map-icon/candi.png') }}",
-    //     mountainIcon = "{{ asset('map-icon/mountain.png') }}",
-    //     oceanIcon = "{{ asset('map-icon/ocean.png') }}",
-    //     tempatIcon = "{{ asset('map-icon/kampung.png') }}";
     let [candi,benteng,masjid,astana,taman,kampung,musium,situ,alun,monument,gua,gunung] = ["{{ asset('map-icon/candi.png') }}","{{ asset('map-icon/benteng.png') }}","{{ asset('map-icon/masjid.png') }}","{{ asset('map-icon/astana.png') }}","{{ asset('map-icon/taman.png') }}","{{ asset('map-icon/kampung.png') }}","{{ asset('map-icon/gerbang.png') }}","{{ asset('map-icon/situ.png') }}","{{ asset('map-icon/alun.png') }}","{{ asset('map-icon/monumen.png') }}","{{ asset('map-icon/gua.png') }}","{{ asset('map-icon/gunung.png') }}"];
 
 
@@ -165,7 +161,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/dataMap') }}',
-            method: "post",
+            
             dataType: "json",
             data: {
                 _token:cs
@@ -210,7 +206,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKat') }}',
-            method: "post",
+            
             dataType: "json",
             data: {
                 _token:cs,
@@ -268,7 +264,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapProv') }}',
-            method: "post",
+            
             dataType: "json",
             data: {
                 _token:cs,
@@ -326,7 +322,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKab') }}',
-            method: "post",
+            
             dataType: "json",
             data: {
                 _token:cs,
@@ -375,7 +371,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKec') }}',
-            method: "post",
+            
             dataType: "json",
             data: {
                 _token:cs,

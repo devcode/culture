@@ -21,12 +21,15 @@ Route::get('/map', 'MapController@index')->name('map.index');
 
 Route::post('/send-email', 'MailController@send')->name('kirim-weh');
 
-Route::get('/v-2', 'MapController@v2')->name('v2.index');
+// Route::get('/v-2', 'MapController@v2')->name('v2.index');
+Route::post('/dataMap', 'MapController@mapData')->name('map');
+
 Route::post('/dataMap', 'MapController@mapData')->name('map');
 Route::post('/mapProv', 'MapController@provData');
 Route::post('/mapKab', 'MapController@kabData');
 Route::post('/mapKec', 'MapController@kecData');
 Route::post('/mapKat', 'MapController@katData');
+
 
 Route::resource('/tentang', 'TentangController');
 

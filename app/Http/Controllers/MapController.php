@@ -52,7 +52,6 @@ class MapController extends Controller
         $provinsi = $request->provinsi;
         $kat = $request->kat;
         $a = Lokasi::get();
-        dd($a);
         if ($provinsi) {
             $data = Lokasi::with('type')->where([
                 ['provinsi', $provinsi],

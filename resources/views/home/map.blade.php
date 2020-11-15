@@ -161,8 +161,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/dataMap') }}',
-            method: "post",
-            dataType: "json",
+            method: "POST",
             data: {
                 _token:cs
             },
@@ -207,8 +206,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKat') }}',
-            method: "post",
-            dataType: "json",
+            method: "POST",
             data: {
                 _token:cs,
                 kat:$(this).val(),
@@ -265,8 +263,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapProv') }}',
-            method: "post",
-            dataType: "json",
+            method: "POST",
             data: {
                 _token:cs,
                 provinsi: $(this).val(),
@@ -323,8 +320,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKab') }}',
-            method: "post",
-            dataType: "json",
+            method: "POST",
             data: {
                 _token:cs,
                 provinsi: $('#propinsi').val(),
@@ -372,8 +368,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKec') }}',
-            method: "post",
-            dataType: "json",
+            method: "POST",
             data: {
                 _token:cs,
                 provinsi: $('#propinsi').val(),

@@ -22,11 +22,11 @@ Route::post('/send-email', 'MailController@send')->name('kirim-weh');
 
 Route::get('/map', 'BisaController@index')->name('map.index');
 
-Route::post('/dataMap', 'BisaController@mapData')->name('map');
-Route::post('/mapProv', 'BisaController@provData');
-Route::post('/mapKab', 'BisaController@kabData');
-Route::post('/mapKec', 'BisaController@kecData');
-Route::post('/mapKat', 'BisaController@katData');
+Route::post('/dataMap', 'BisaController@mapData')->name('map-data');
+Route::post('/mapProv', 'BisaController@provData')->name('data-prov');
+Route::post('/mapKab', 'BisaController@kabData')->name('data-kab');
+Route::post('/mapKec', 'BisaController@kecData')->name('data-kec');
+Route::post('/mapKat', 'BisaController@katData')->name('data-kat');
 
 Route::resource('/tentang', 'TentangController');
 

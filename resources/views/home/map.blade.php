@@ -158,9 +158,10 @@
     });
 
     let cs = '{{ csrf_token() }}';
+    let links = '{{route('map-data')}}'
         parentGroup.clearLayers();
         $.ajax({
-            url: '{{ url('/dataMap') }}',
+            url: links,
             method: "post",
             dataType: "json",
             data: {
@@ -203,9 +204,10 @@
         
     $('#keinginan').on('change',function() {
         let cs = '{{ csrf_token() }}';
+        let links = '{{route('data-kat')}}'
         parentGroup.clearLayers();
         $.ajax({
-            url: '{{ url('/mapKat') }}',
+            url: links,
             method: "post",
             dataType: "json",
             data: {
@@ -261,9 +263,10 @@
             $('#kecamatan').slideUp();
         }
         let cs = '{{ csrf_token() }}';
+    let links = '{{route('data-prov')}}'
         parentGroup.clearLayers();
         $.ajax({
-            url: '{{ url('/mapProv') }}',
+            url: links,
             method: "post",
             dataType: "json",
             data: {
@@ -319,9 +322,10 @@
             $('#kecamatan').slideDown();
         }
         let cs = '{{ csrf_token() }}';
+    let links = '{{route('data-kab')}}'
         parentGroup.clearLayers();
         $.ajax({
-            url: '{{ url('/mapKab') }}',
+            url: links,
             method: "post",
             dataType: "json",
             data: {
@@ -368,9 +372,10 @@
 
     $('#kecamatan').on('change', function () {
         let cs = '{{ csrf_token() }}';
+    let links = '{{route('data-kec')}}'
         parentGroup.clearLayers();
         $.ajax({
-            url: '{{ url('/mapKec') }}',
+            url: links,
             method: "post",
             dataType: "json",
             data: {

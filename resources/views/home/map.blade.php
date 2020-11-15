@@ -169,6 +169,7 @@
             success: function (json) {
                 var last = {};
                 json.forEach(element => {
+                    console.log(element);
                     const regex = /sw/gi;
                     const str = '{{ url("/detail", ["id" => "sw"]) }}'
                     var link = str.replace(regex, element.id) ;

@@ -161,7 +161,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/dataMap') }}',
-            
+            method: "post",
             dataType: "json",
             data: {
                 _token:cs
@@ -206,7 +206,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKat') }}',
-            
+            method: "post",
             dataType: "json",
             data: {
                 _token:cs,
@@ -264,7 +264,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapProv') }}',
-            
+            method: "post",
             dataType: "json",
             data: {
                 _token:cs,
@@ -322,7 +322,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKab') }}',
-            
+            method: "post",
             dataType: "json",
             data: {
                 _token:cs,
@@ -371,7 +371,7 @@
         parentGroup.clearLayers();
         $.ajax({
             url: '{{ url('/mapKec') }}',
-            
+            method: "post",
             dataType: "json",
             data: {
                 _token:cs,
